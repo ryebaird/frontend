@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(185, 189, 192);
+    position: relative;
+}
+
+div {
+    position: absolute;
+    top:25vh;
+    left:25vw;
+    display: grid;
+    grid-template-columns: 150px 250px;
+    grid-template-rows: 25px 25px 25px 25px 25px 25px;
+    height: 100vh;
+}
+
+label {
+    justify-self: flex-end;
+    padding-right: 10px;
+}
+#lblCusName{
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+#cusName{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#lblContName{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#contName{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#lblContInfo{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#contInfo{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#lblDescription{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#description{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#submitButton{
+    grid-column:2;
+    grid-row: 5;
+}
+
+#cancelButton{
+    grid-column: 2;
+    grid-row: 6;
+    
+}

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    grid-template-rows: 25px 1fr;
+    height: 100vh;
+}
+
+section {
+    background-color: #444;
+    color:rgb(185, 189, 192);
+    grid-column: 2;
+}
+
+#user {
+    color:rgb(185, 189, 192);
+    background-color: #333 ;
+    height: 100%;
+    width:100%;
+}
+
+main {
+    background-color: rgb(185, 189, 192);
+    grid-column: 1 / -1;
+}
+
+menu {
+    display:flexbox;
+    background-color: #444;
+    color:rgb(185, 189, 192);
+    grid-column: 1 ;
+    align-items: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(209, 211, 209);
+}
+
+#search{
+    height:100%;
+}
+
+#addCustomer{
+    margin-right: 20px;
+}
